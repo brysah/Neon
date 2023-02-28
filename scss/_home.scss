@@ -120,6 +120,13 @@
                     opacity: 0.8;
                     margin-bottom: 2.6rem;
                 }
+                ul{
+                    li{
+                        &:not(:last-child){
+                            margin-bottom: 2.6rem;
+                        }
+                    }
+                }
             }
         }
     }
