@@ -79,3 +79,24 @@
         }
     }
 }
+
+.s-card-neon{
+    padding-top: 12.9rem;
+    .left-area{
+        width: 100%;
+        max-width: 27.7rem;
+        .ilustra-mockup{
+            position: relative;
+            width: 100%;
+            max-width: 27.7rem;
+            margin-bottom: 12.9rem;
+            .circle{
+                position: absolute;
+                top: 8.7rem;
+                left: -21.4rem;
+                max-width: 37.7rem;
+                z-index: -1;
+            }
+        }
+    }
+}
