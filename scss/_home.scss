@@ -103,6 +103,19 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            .icon{
+                position: relative;
+                &:before{
+                    content: "";
+                    width: 0.5rem;
+                    height: 8.3rem;
+                    background: url("../img/points.svg") no-repeat center center;
+                    position: absolute;
+                    top: -10.4rem;
+                    left: 50%;
+                    margin-left: -0.25rem;
+                }
+            }
             .info-txt{
                 display: flex;
                 flex-direction: column;
