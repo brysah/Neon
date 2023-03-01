@@ -324,6 +324,10 @@
 .s-conta-digital{
     padding-top: 12.7rem;
     padding-bottom: 8.5rem;
+    .container{
+        display: flex;
+        align-items: center;
+    }
     .text{
         max-width: 54.2rem;
         margin-bottom: 4.5rem;
@@ -362,6 +366,29 @@
                         color: $gray-300;
                     }
                 }
+            }
+        }
+    }
+    .image{
+        position: relative;
+        width:100%;
+        max-width: 71.2rem;
+        height: 59.8rem;
+        margin-right: -3.8rem;
+        left: 12.5rem;
+        img{
+            position: absolute;
+            &.mockup-01{
+                left: 0;
+                bottom: 4.7rem;
+            }
+            &.mockup-02{
+                top: 0.3rem;
+                left: 25.8rem;
+            }
+            &.circle{
+                right: 0;
+                bottom: 0;
             }
         }
     }
