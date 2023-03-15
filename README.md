@@ -13,7 +13,8 @@ O projeto está dividido em duas pastas principais:
 
 -   `css`: contém o arquivo CSS minificado.
 -   `img`: contém as imagens utilizadas na página.
--   `scss`': contém os arquivos Sass do projeto.
+-   `scss`: contém os arquivos Sass do projeto.
+-   `js`: contém os arquivos JavaScript do projeto.
 
 O arquivo principal do projeto é o `index.html`.
 
