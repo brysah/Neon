@@ -22,3 +22,13 @@ function fixedMenu(){
 }
 
 document.addEventListener('scroll',fixedMenu);
+
+const btnMenu = document.getElementById('js-btn-menu-mobile');
+const overlayMenu = document.querySelector('.js-overlay');
+
+function openMobileMenu(){
+    document.documentElement.classList.toggle('menu-opened');
+}
+
+btnMenu.addEventListener('click',openMobileMenu);
+overlayMenu.addEventListener('click',openMobileMenu);
